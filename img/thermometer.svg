@@ -1,0 +1,13 @@
+<?xml version="1.0"?><svg width="256" height="512" xmlns="http://www.w3.org/2000/svg">
+ <title>Blank fundraising thermometer</title>
+ <metadata id="metadata7">image/svg+xmlThermometer2006-11-06Trent Buck &lt;twb@cyber.com.au&gt;</metadata>
+ <g>
+  <title>Layer 1</title>
+  <!-- set the height attribute to something between 0 and 10.  Can be floating-point. -->
+  <g id="svg_116">
+   <rect height="6.25" width="31.75" y="432.75" x="133.5" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="#c00" id="svg_114"/>
+   <path d="m185,470a35.5,35.5 0 1 1 -71,0a35.5,35.5 0 1 1 71,0z" stroke-width="4" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" fill-rule="nonzero" fill="#c00" id="path2924"/>
+  </g>
+  <path d="m149.5,9.5c-9.833496,0 -17.75,7.9165 -17.75,17.75l0,413c-10.610397,6.140015 -17.75,17.617004 -17.75,30.75c0,19.596008 15.903992,35.5 35.5,35.5c19.596008,0 35.5,-15.903992 35.5,-35.5c0,-13.132996 -7.139603,-24.609985 -17.75,-30.75l0,-413c0,-9.8335 -7.916504,-17.75 -17.75,-17.75z" stroke-width="4" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" stroke="black" fill-rule="nonzero" fill="none" id="rect2968"/>
+ </g>
+</svg>
