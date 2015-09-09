@@ -22,3 +22,18 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$('input').on({
+    'click': function(){
+        $('#thermometer').attr('src','img/thermometer2.png');
+    }
+});
+
+
+
+
+$('input').on({
+    'click': function(){
+        $('#avatar').attr('src','img/hipstergirl2.png');
+    }
+});

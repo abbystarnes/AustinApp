@@ -1,6 +1,53 @@
 #map {
-  width: 500px;
+  width: 100%;
   height: 500px;
   background-image: url("../img/map.jpg"); }
+
+img {
+  max-width: 100%; }
+
+.progressAvatar {
+  font-size: 4em; }
+  .progressAvatar img {
+    max-width: 50%;
+    float: left; }
+
+.progressAvatar {
+  display: block;
+  margin: 0 auto;
+  width: 100%; }
+
+body {
+  text-transform: uppercase;
+  padding: 0% 5%; }
+
+.wrapping {
+  max-width: 660px;
+  margin: 0 auto; }
+
+li {
+  list-style: none; }
+  li:first-child i {
+    color: yellow; }
+  li:nth-child(even) i {
+    color: green; }
+  li:last-child i {
+    color: purple; }
+  li i {
+    color: pink; }
+
+ul {
+  padding-left: 0; }
+
+.thermometer {
+  height: 300px; }
+
+.avatar {
+  height: 300px; }
+
+.progressAvatar::before {
+  content: url(hipstergirl2.jpg);
+  height: 100px;
+  width: 100px; }
 
 /*# sourceMappingURL=style.css.map */

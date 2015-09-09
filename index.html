@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.11.3.min.js"></script>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 
     </head>
     <body>
-       
+       <div class="wrapping">
 
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -44,19 +44,29 @@
              <li><a href="myUpcomingChallenges.html">My Upcoming Challenges</a></li>
          </ul>
 
-         <div class="progressAvatar">
-             <img src="img/thermometer.svg" alt="yourChallenges">
-             <img src="img/hipster.jpg" alt="yourAvatar">    
+         <div class="progressAvatar clear clearfix">
+             <img id="thermometer" class="thermometer color" src="img/thermometer.svg" alt="yourChallenges">
+             <img id="avatar" class="avatar accessory" src="img/hipstergirl.png" alt="yourAvatar">    
              
          </div>
-            <i>Share Icon</i>
+           <a href="#"> <i class="fa fa-share-alt"></i></a>
          <h2>Completed Challenges</h2>   
          <ul>
-             <li><a href="challengePage.html">View State Capitol</a></li>
-             <li><a href="challengePage.html">Lady Bird Hike &amp; Bike Trail</a></li>
-             <li><a href="challengePage.html">Sightseeing Tour</a></li>
-             <li><a href="challengePage.html">LBJ Presidential Library</a></li>
-             <li><a href="challengePage.html">Bullock Texas State History Museum</a></li>
+             <li class="event"><i class="fa fa-circle"></i> <a href="challengePage.html">View State Capitol</a></li>  <label for="Attend?">Did you attend?</label>
+        <input type="checkbox" name="Attend?" id="Attend?" value="Attend?">
+        
+             <li class="event"><i class="fa fa-circle"></i><a href="challengePage.html">Lady Bird Hike &amp; Bike Trail</a></li>  <label for="Attend?">Did you attend?</label>
+        <input type="checkbox" name="Attend?" id="Attend?" value="Attend?">
+        
+             <li class="event"><i class="fa fa-circle"></i><a href="challengePage.html">Sightseeing Tour</a></li>  <label for="Attend?">Did you attend?</label>
+        <input type="checkbox" name="Attend?" id="Attend?" value="Attend?">
+        
+             <li class="event"><i class="fa fa-circle"></i><a href="challengePage.html">LBJ Presidential Library</a></li>  <label for="Attend?">Did you attend?</label>
+        <input type="checkbox" name="Attend?" id="Attend?" value="Attend?">
+        
+             <li class="event"><i class="fa fa-circle"></i><a href="challengePage.html">Bullock Texas State History Museum</a></li>  <label for="Attend?">Did you attend?</label>
+        <input type="checkbox" name="Attend?" id="Attend?" value="Attend?">
+        
          </ul>
 
         
@@ -74,5 +84,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        </div>
     </body>
 </html>
