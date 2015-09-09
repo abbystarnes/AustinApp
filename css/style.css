@@ -1,9 +1,6 @@
-p {
-  font-size: 5em; }
-
 #map {
   width: 500px;
   height: 500px;
-  background-color: pink; }
+  background-image: url("../img/map.jpg"); }
 
 /*# sourceMappingURL=style.css.map */
